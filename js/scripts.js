@@ -39,3 +39,9 @@ function revealEmail() {
     linkElement.setAttribute("href", "mailto:" + emailAddress);
     linkElement.textContent = emailAddress;
 }
+
+function changeNavItemColor(element) {
+    const navItems = document.querySelectorAll('.navbar-nav li a');
+    navItems.forEach(item => item.style.color = '');
+    element.style.color = "#f1f1f1";
+}
