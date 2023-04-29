@@ -12461,9 +12461,8 @@ p.lead {
     outline-color: #d48a6e;
 }
 
-.blue-eyes {
-    color: rgba(255, 255, 255, 0.55);
-    padding-top: 1rem;
+.blue-eyes:hover {
+    cursor: url('../assets/img/blue-heart.svg'), auto;
 }
 
 @media (min-width: 992px) {
